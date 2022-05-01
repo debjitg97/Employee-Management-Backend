@@ -41,6 +41,7 @@ public class EmployeeController {
 		Page<EmployeeDTO> employeeDTOPage = employeeService.getEmployees(pageNo, pageSize, sortField, sortDirection, searchQuery);
 		HttpHeaders responseHeaders = new HttpHeaders();
 	    responseHeaders.set("x-total-count", Long.toString(employeeDTOPage.getTotalElements()));
+	    responseHeaders.set("Access-Control-Expose-Headers", "*");
 	    return new ResponseEntity<>(employeeDTOPage.getContent(), responseHeaders, HttpStatus.OK);
 	}
 	

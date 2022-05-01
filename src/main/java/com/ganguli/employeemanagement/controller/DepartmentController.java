@@ -40,6 +40,7 @@ public class DepartmentController {
 		Page<DepartmentDTO> departmentDTOPage = departmentService.getDepartments(pageNo, pageSize, sortField, sortDirection, searchQuery);
 		HttpHeaders responseHeaders = new HttpHeaders();
 	    responseHeaders.set("x-total-count", Long.toString(departmentDTOPage.getTotalElements()));
+	    responseHeaders.set("Access-Control-Expose-Headers", "*");
 	    return new ResponseEntity<>(departmentDTOPage.getContent(), responseHeaders, HttpStatus.OK);
 	}
 	
