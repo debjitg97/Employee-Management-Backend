@@ -1,6 +1,6 @@
 # Employee Management Backend
 
-REST APIs for the Employee Management App. 
+REST APIs for the Employee Management App. The Employee Management App is a Full Stack Application used to maintain a record of Employees and Departments.
 
 ## Built With
 
