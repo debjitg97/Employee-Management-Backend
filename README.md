@@ -2,13 +2,13 @@
 
 REST APIs for the Employee Management App. 
 
-### Built With
+## Built With
 
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [Java 11](https://www.java.com/en/)
 * [MySQL](https://www.mysql.com/)
 
-### Features
+## Features
 
 * Add, Edit and Delete Employees
 * Add and Edit Departments
