@@ -15,3 +15,5 @@ REST APIs for the Employee Management App.
 * Get Employee and Department data with server-side pagination, searching and sorting
 * Global exception handling and unified error response structure
 * Unit test cases for the services
+
+You can find the frontend here: https://github.com/debjitg97/Employee-Management
