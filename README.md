@@ -8,6 +8,10 @@ REST APIs for the Employee Management App.
 * [Java 11](https://www.java.com/en/)
 * [MySQL](https://www.mysql.com/)
 
+## Development server
+
+Execute the `main` method in the `com.ganguli.employeemanagement.EmployeeManagementApplication` class from your IDE. The server will run on port 5000 by default.
+
 ## Features
 
 * Add, Edit and Delete Employees
